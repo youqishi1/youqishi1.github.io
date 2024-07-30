@@ -11,6 +11,18 @@
         <content type="html"><![CDATA[<div class="video-container"><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1506367433&bvid=BV1SS421X7Zg&cid=1629210896&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style><div class="video-container"><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1606353250&bvid=BV1pm42137WX&cid=1629771625&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
       
       
+      <categories>
+          
+          <category> 抖音 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 抖音 </tag>
+            
+        </tags>
       
     </entry>
     
