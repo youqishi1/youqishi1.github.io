@@ -13571,7 +13571,7 @@ h1.page-title + .tag-cloud-list {
   filter: alpha(opacity=0);
 }
 #pagination .page-number.current {
-  background: #42bb7b;
+  background: #27bfd6;
   color: var(--white);
 }
 #pagination .pagination-info {
