@@ -3010,18 +3010,6 @@ blockquote > :last-child {
     padding: 1.875rem 0rem 0;
   }
 }
-body {
-  background: -webkit-linear-gradient(left, #8bd0d6, #ff7242);
-  background: -moz-linear-gradient(left, #8bd0d6, #ff7242);
-  background: -o-linear-gradient(left, #8bd0d6, #ff7242);
-  background: -ms-linear-gradient(left, #8bd0d6, #ff7242);
-  background: linear-gradient(to right, #8bd0d6, #ff7242);
-/* 其他样式 */
-}
-.container {
-  filter: hue-rotate(180deg);
-/* 其他样式 */
-}
 .loading-bg {
   display: -webkit-box;
   display: -moz-box;
