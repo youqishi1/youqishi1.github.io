@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>VPS代码合集</title>
+      <link href="/2024/08/08/VPS%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/"/>
+      <url>/2024/08/08/VPS%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/</url>
+      
+        <content type="html"><![CDATA[<h1 id="单协议-Tuic-serv00专用"><a href="#单协议-Tuic-serv00专用" class="headerlink" title="单协议 Tuic serv00专用"></a>单协议 Tuic serv00专用</h1><p>curl -s <a href="https://eooce.2go.us.kg/tu.sh">https://eooce.2go.us.kg/tu.sh</a> | UUID&#x3D;248d5250-f57b-47ff-9b42-54120bd2e2ec PORT&#x3D;55563 NEZHA_SERVER&#x3D;<a href="http://www.bing.com/">www.bing.com</a> NEZHA_PORT&#x3D;5555 NEZHA_KEY&#x3D;xiaowang bash</p><h1 id="4和1协议-sy2-vm-Tuic-serv00专用"><a href="#4和1协议-sy2-vm-Tuic-serv00专用" class="headerlink" title="4和1协议 sy2+vm+Tuic serv00专用"></a>4和1协议 sy2+vm+Tuic serv00专用</h1><p>curl -s <a href="https://raw.githubusercontent.com/youqishi1/Sing-box/main/sb_serv00.sh">https://raw.githubusercontent.com/youqishi1/Sing-box/main/sb_serv00.sh</a> | UUID&#x3D;af13c17f-3c96-4850-a2a1-8b3e01582bf8 PORT&#x3D;55563 NEZHA_SERVER&#x3D;<a href="http://www.bing.com/">www.bing.com</a> NEZHA_PORT&#x3D;6666 NEZHA_KEY&#x3D;xiaowang bash</p><h1 id="要设置定时重启并运行这个脚本，你可以使用-cron-来实现。cron-是一个-Linux-的定时任务调度器，可以在指定的时间间隔内执行任务。下面是如何设置定时任务来重启脚本的方法："><a href="#要设置定时重启并运行这个脚本，你可以使用-cron-来实现。cron-是一个-Linux-的定时任务调度器，可以在指定的时间间隔内执行任务。下面是如何设置定时任务来重启脚本的方法：" class="headerlink" title="要设置定时重启并运行这个脚本，你可以使用 cron 来实现。cron 是一个 Linux 的定时任务调度器，可以在指定的时间间隔内执行任务。下面是如何设置定时任务来重启脚本的方法："></a>要设置定时重启并运行这个脚本，你可以使用 cron 来实现。cron 是一个 Linux 的定时任务调度器，可以在指定的时间间隔内执行任务。下面是如何设置定时任务来重启脚本的方法：</h1><ol><li>编辑 crontab<br>使用 crontab -e 命令打开 crontab 文件：</li></ol><p>bash<br>复制代码<br>crontab -e<br>2. 添加定时任务<br>根据你想要的重启频率，添加以下内容：</p><p>bash<br>复制代码<br>0 3 * * * UUID&#x3D;af13c17f-3c96-4850-a2a1-8b3e01582bf8 PORT&#x3D;55563 NEZHA_SERVER&#x3D;<a href="http://www.bing.com/">www.bing.com</a> NEZHA_PORT&#x3D;6666 NEZHA_KEY&#x3D;xiaowang bash -c ‘curl -s <a href="https://raw.githubusercontent.com/youqishi1/Sing-box/main/sb_serv00.sh">https://raw.githubusercontent.com/youqishi1/Sing-box/main/sb_serv00.sh</a> | bash’<br>定时任务的解释：<br>0 3 * * *: 这部分定义了任务的时间。这个示例表示每天凌晨 3:00 执行任务。<br>0：表示分钟，这里是每小时的第 0 分钟。<br>3：表示小时，这里是凌晨 3 点。<br>*：表示日期，不指定具体日期，每天都执行。<br>*：表示月份，不指定具体月份。<br>*：表示星期几，不指定具体星期几。<br>3. 保存并退出<br>按 Ctrl + O 保存文件，按 Enter 确认，然后按 Ctrl + X 退出编辑器。<br>4. 验证定时任务<br>你可以使用 crontab -l 查看定时任务是否设置成功：<br>bash<br>复制代码<br>crontab -l<br>如果成功，服务器将在每天凌晨 3:00 自动执行你的脚本。你可以根据需要调整 cron 表达式中的时间设置，以满足你的特定需求。</p><div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>小猫疑难杂症01</title>
       <link href="/2024/08/05/%E5%B0%8F%E7%8C%AB%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%8701/"/>
       <url>/2024/08/05/%E5%B0%8F%E7%8C%AB%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%8701/</url>
