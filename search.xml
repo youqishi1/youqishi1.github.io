@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>青龙面版保活文字教程</title>
+      <link href="/2024/08/14/%E9%9D%92%E9%BE%99%E9%9D%A2%E7%89%88%E4%BF%9D%E6%B4%BB%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B/"/>
+      <url>/2024/08/14/%E9%9D%92%E9%BE%99%E9%9D%A2%E7%89%88%E4%BF%9D%E6%B4%BB%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="事前准备"><a href="#事前准备" class="headerlink" title="事前准备"></a>事前准备</h1><p>1.huggingface账号用于搭建青龙面板<br>2.serv00账号</p><h3 id="如果以上没有不用担心本教程手把手教你100-注册成功serv00，并用青龙面板保活程序"><a href="#如果以上没有不用担心本教程手把手教你100-注册成功serv00，并用青龙面板保活程序" class="headerlink" title="如果以上没有不用担心本教程手把手教你100%注册成功serv00，并用青龙面板保活程序"></a>如果以上没有不用担心本教程手把手教你100%注册成功serv00，并用青龙面板保活程序</h3><h1 id="因为大多数朋友都有了serv00了，我这边先教大家快速搭建青龙面板保活。"><a href="#因为大多数朋友都有了serv00了，我这边先教大家快速搭建青龙面板保活。" class="headerlink" title="因为大多数朋友都有了serv00了，我这边先教大家快速搭建青龙面板保活。"></a>因为大多数朋友都有了serv00了，我这边先教大家快速搭建<code>青龙面板保活</code>。</h1><p>首先打开博主的huggingface页面<strong><a href="https://huggingface.co/ykxVK8yL5L">https://huggingface.co/ykxVK8yL5L</a></strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -s https://raw.githubusercontent.com/eooce/scripts/master/containers-shell/00-hy2.sh | PORT=55562 UUID=c1b9ba1f-a47e-4568-a8dd-ffad3a23d23c bash</span><br></pre></td></tr></table></figure><div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>VPS代码合集</title>
       <link href="/2024/08/08/VPS%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/"/>
       <url>/2024/08/08/VPS%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/</url>
