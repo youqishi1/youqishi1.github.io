@@ -1,1 +1,19 @@
+backend:
+  name: github
+  repo: youqishi1/youqishi1.github.io # 确认这是你的仓库名
+  branch: main 
+  base_url: https://anzhiyu-auth.1797507336.workers.dev # 刚才CF部署的那个
 
+media_folder: "img" # 因为你根目录就有img文件夹
+public_folder: "/img"
+
+collections:
+  - name: "pages"
+    label: "页面管理"
+    files:
+      - label: "首页"
+        name: "index"
+        file: "index.html"
+        fields:
+          - {label: "标题", name: "title", widget: "string"}
+          - {label: "正文内容", name: "body", widget: "markdown"}
