@@ -1,19 +1,30 @@
 backend:
   name: github
-  repo: youqishi1/youqishi1.github.io # 确认这是你的仓库名
-  branch: main 
-  base_url: https://anzhiyu-auth.1797507336.workers.dev # 刚才CF部署的那个
+  repo: youqishi1/youqishi1.github.io # 确保这是你的仓库路径
+  branch: main
+  base_url: https://anzhiyu-auth.1797507336.workers.dev # 填入你之前在CF部署的Worker地址
+  auth_endpoint: auth
 
-media_folder: "img" # 因为你根目录就有img文件夹
+media_folder: "img" # 对应你列出的 img 文件夹
 public_folder: "/img"
 
 collections:
-  - name: "pages"
-    label: "页面管理"
+  - name: "posts"
+    label: "旧文章修改"
+    # 因为你现在的文章路径是 2025/02/10/备份VPS... 
+    # 这种结构很特殊，我们先通过通配符尝试匹配
+    folder: "2025" 
+    extension: html
+    format: frontmatter
+    create: false # 结果仓库建议只修改，不创建，因为格式太复杂
+    fields:
+      - {label: "正文", name: "body", widget: "markdown"}
+
+  - name: "static_pages"
+    label: "独立页面"
     files:
       - label: "首页"
         name: "index"
         file: "index.html"
         fields:
-          - {label: "标题", name: "title", widget: "string"}
-          - {label: "正文内容", name: "body", widget: "markdown"}
+          - {label: "页面内容", name: "body", widget: "markdown"}
